@@ -6,7 +6,7 @@ export default class Newsitem extends Component {
         let {title,description,imageUrl,newsUrl,author,date,source}=this.props;
         return (
             <div className="my-1  mx-1" >
-                <div className="card align-center" style={{width: "21.5rem"}}>
+                <div className="card align-center" style={{width: "20.5rem"}}>
                     <img src={imageUrl} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title"><b>{title}</b> <span className="badge rounded-pill text-bg-success">{source}</span></h5>
